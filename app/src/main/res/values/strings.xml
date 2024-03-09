@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Prelim Exam</string>
+    <string name="arhat_king">Arhat King</string>
+    <string name="reminder">Tip: If a player on a team select 4 heroes on the same role during the Ban Pick, players can choose to restart the match.</string>
+    <string name="hero_bg_1">hero bg 1</string>
+    <string name="hero_name">Hero Name</string>
+    <string name="vs">VS</string>
+    <string name="arkhat_king">Arkhat King</string>
+    <string name="gatotkaca">Gatotkaca</string>
+    <string name="_100">100%</string>
+    <string name="jome_marie">Jome Marie</string>
+    <string name="lesley">Lesley</string>
+    <string name="spaces" />
+    <string name="lylia">Lylia</string>
+    <string name="nethhub">NethHUB</string>
+    <string name="_46">46%</string>
+    <string name="saber">Saber</string>
+    <string name="beng_cyntha_excel27">Beng cyntha/excel27</string>
+    <string name="_9">9%</string>
+    <string name="golden_flash">Golden Flash</string>
+    <string name="arlott">Arlott</string>
+    <string name="coreenz">coreenz</string>
+    <string name="_49">49%</string>
+    <string name="steam_researcher">Steam Researcher</string>
+    <string name="kimmy">Kimmy</string>
+    <string name="jaaaay13">Jaaaay13</string>
+    <string name="bursting_yama">Bursting Yama</string>
+    <string name="minotaur">Minotaur</string>
+    <string name="springtide">Springtide</string>
+    <string name="floryn">FLoryn</string>
+    <string name="tsukiakahana">tsukiakahana</string>
+    <string name="aldous">Aldous</string>
+    <string name="jorg_deluca_4">Jorg.Deluca*4</string>
+    <string name="hanabi">Hanabi</string>
+</resources>

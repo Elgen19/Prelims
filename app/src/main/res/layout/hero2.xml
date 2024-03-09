@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg3">
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/image3"
+        android:contentDescription="@string/hero_bg_1" />
+
+    <!-- Company Icon ImageView (Top Left) -->
+    <ImageView
+        android:id="@+id/company_icon_image"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/image15"
+        android:layout_marginTop="4dp"
+        android:importantForAccessibility="no" />
+
+
+
+    <!-- Bottom Section -->
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/background_image"
+        android:background="#66000000">
+
+
+        <TextView
+            android:id="@+id/skin_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="4dp"
+            android:text="@string/spaces"
+            android:textColor="#66000000"
+            android:textSize="11sp"
+
+            tools:ignore="TextContrastCheck" />
+
+        <!-- Hero Name TextView -->
+        <TextView
+            android:id="@+id/hero_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/skin_name_text"
+            android:layout_alignParentStart="true"
+            android:textSize="11sp"
+            android:text="@string/lesley"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="4dp"
+            />
+
+        <!-- Player Name TextView -->
+        <TextView
+            android:id="@+id/player_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hero_name_text"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="4dp"
+            android:text="O.P Zack KiNg"
+            android:textColor="@android:color/white"
+            android:textSize="11sp"
+            tools:ignore="HardcodedText" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/player_name_text"
+            android:layout_alignParentStart="true"
+            android:orientation="horizontal"
+            >
+
+            <!-- Loading Percentage TextView -->
+            <TextView
+                android:id="@+id/loading_percentage_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_100"
+                android:textSize="11sp"
+                android:background="#4179a6"
+                android:textColor="@android:color/white"
+                android:layout_marginStart="4dp"
+                />
+
+            <!-- ImageView for Emblem -->
+            <ImageView
+                android:id="@+id/emblem_image"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_toEndOf="@id/loading_percentage_text"
+                android:layout_marginStart="45dp"
+                android:src="@drawable/image10"
+                android:importantForAccessibility="no" />
+
+            <!-- Spell ImageView -->
+            <ImageView
+                android:id="@+id/spell_image"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_toEndOf="@id/emblem_image"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/image22"
+                android:importantForAccessibility="no" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!-- ImageView for Experience -->
+    <ImageView
+        android:id="@+id/experience_image"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:src="@drawable/image17"
+        android:layout_below="@id/bottom_layout"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="4dp"
+        android:importantForAccessibility="no" />
+
+
+</RelativeLayout>

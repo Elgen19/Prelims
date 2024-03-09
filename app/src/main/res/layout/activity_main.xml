@@ -1,0 +1,157 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/bg1">
+
+    <!-- Top 5 Rectangles -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="64dp"
+        android:baselineAligned="false">
+
+        <!-- First Rectangle -->
+        <include
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            layout="@layout/hero1"
+            tools:ignore="NestedWeights" />
+
+        <!-- Second Rectangle -->
+        <include
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            layout="@layout/hero2" />
+
+        <!-- Third Rectangle -->
+        <include
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            layout="@layout/hero3" />
+
+        <!-- Fourth Rectangle -->
+        <include
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            layout="@layout/hero4" />
+
+        <!-- Fifth Rectangle -->
+        <include
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            layout="@layout/hero5" />
+
+        <!-- ImageView -->
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/image15"
+            android:layout_gravity="center_vertical"
+            android:importantForAccessibility="no" />
+    </LinearLayout>
+
+    <!-- TextViews -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Reminder TextView -->
+        <TextView
+            android:id="@+id/reminder_textview"
+            android:layout_width="383dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="11sp"
+            android:text="@string/reminder"
+            android:textColor="@android:color/black"
+            tools:ignore="TextSizeCheck" />
+
+        <!-- Versus TextView -->
+        <TextView
+            android:id="@+id/versus_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/vs"
+            android:textColor="#e3b057"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+
+
+    <!-- Bottom 5 Rectangles -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginStart="64dp"
+        android:baselineAligned="false">
+        <!-- First Rectangle -->
+        <include
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            layout="@layout/hero6"
+            tools:ignore="NestedWeights" />
+
+        <!-- Second Rectangle -->
+        <include
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            layout="@layout/hero7" />
+
+        <!-- Third Rectangle -->
+        <include
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            layout="@layout/hero8" />
+
+        <!-- Fourth Rectangle -->
+        <include
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            layout="@layout/hero9" />
+        <!-- Fifth Rectangle -->
+        <include
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            layout="@layout/hero10" />
+
+
+    </LinearLayout>
+</LinearLayout>
